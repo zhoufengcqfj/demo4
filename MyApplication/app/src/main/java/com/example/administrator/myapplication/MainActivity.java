@@ -94,6 +94,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void destroyItem(ViewGroup container, int position, Object object) {
             container.removeView((View) object);
+			System.out.println("11111111111");
         }
     }
 
